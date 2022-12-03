@@ -130,7 +130,7 @@ int main(int argc, char** argv) {
 	}	
 
 	/*The sem_close() function closes a named semaphore that was previously opened by a thread of the current process using sem_open(). 
-	The sem_close() function frees system resources associated with the semaphore on behalf of the process.sem_close()
+	The sem_close() function frees system resources associated with the semaphore on behalf of the process.
 
 	The parameter for sem_close() is:
 	1. sem - a pointer to an opened named semaphore. This semaphore is closed for this process.*/
